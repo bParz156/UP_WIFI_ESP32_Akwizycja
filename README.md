@@ -9,7 +9,7 @@ Celem ćwiczenia było napisanie aplikacji dla ESP32, która ma umożliwiać:
 Arduino, ESP8266
 ## Uruchomienie
 1.Skonfigurować router zgodnie z danymi wskazanymi w opisie programu:
-Pasmo 2.4 GHz, nazwa sieci ssid="UWU", hasło="KOCHAMUP". Działanie sieci wymaga: routera, ESP8266 i urządzenia klienta, który chce uzyskać dane od serwera będącego ESP.
+Pasmo 2.4 GHz, nazwa sieci ssid="UWU", hasło="KOCHAMUP". Działanie sieci wymaga: routera, ESP8266 i urządzenia klienta, który chce uzyskać dane od serwera będącego ESP. <br>
 2. Zgranie programu (plik _ESP_WIFI_connection.ino_) na urządzenie ESP8266
 ## Działanie programu
 Działanie programu jest szcegółowo opisane w komentarzach w pliku _ESP_WIFI_connection.ino_ 
