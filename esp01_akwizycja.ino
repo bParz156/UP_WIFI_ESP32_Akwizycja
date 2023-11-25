@@ -164,7 +164,6 @@ Jego celem jest obsługa przez serwer HTTP klientów
 void loop() {
   if(WL_CONNECTED)
   {
-    Serial.println("W loop");
     pomiar();
     obsuga_klienta();
   }
@@ -209,34 +208,33 @@ void pomiar()
     getTemperature();
     getHumidity();
     Serial.println(dane_pomiarowe());
-  //vTaskDelay(timeInterval);
 
 }
 
 
 void getTemperature()
 {
-  /*
+  
   float t=dht.readTemperature();
   t_actual=t;
   if (isnan(t)) {    
     Serial.println("Nie udalo sie odczytac temperatury!");
   }
-  */
-  t_actual=wylosuj();
+  
+  //t_actual=wylosuj();
   
 }
 
 void getHumidity()
 {
-  /*
+  
   float h=dht.readHumidity();
   h_actual=h;
   if (isnan(h)) {    
     Serial.println("Nie udalo sie odczytac wilgoci!");
   }
-  */
-  h_actual=wylosuj();
+  
+  //h_actual=wylosuj();
 
 }
 
